@@ -1,0 +1,4 @@
+Invoking command in '/home/adone/ros2_ws/src/build/cpp_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_subscriber -- -j8 -l8
+Invoked command in '/home/adone/ros2_ws/src/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_subscriber -- -j8 -l8
+Invoking command in '/home/adone/ros2_ws/src/build/cpp_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adone/ros2_ws/src/build/cpp_subscriber
+Invoked command in '/home/adone/ros2_ws/src/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adone/ros2_ws/src/build/cpp_subscriber

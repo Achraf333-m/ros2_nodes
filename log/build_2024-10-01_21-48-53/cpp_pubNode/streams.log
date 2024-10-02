@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target cpp_exe[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o[0m
+[0.069s] [  0%] Built target ament_cmake_python_copy_cpp_pubNode
+[0.313s] running egg_info
+[0.314s] writing cpp_pubNode.egg-info/PKG-INFO
+[0.314s] writing dependency_links to cpp_pubNode.egg-info/dependency_links.txt
+[0.315s] writing top-level names to cpp_pubNode.egg-info/top_level.txt
+[0.317s] reading manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+[0.317s] writing manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+[0.349s] [ 50%] Built target ament_cmake_python_build_cpp_pubNode_egg
+[2.620s] In file included from [01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:2[m[K:
+[2.620s] [01m[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:[m[K In constructor ‘[01m[KMyCustomNode::MyCustomNode()[m[K’:
+[2.620s] [01m[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:8:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.621s]     8 |         [01;31m[K}[m[K;
+[2.621s]       |         [01;31m[K^[m[K
+[3.122s] gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o] Error 1
+[3.122s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/cpp_exe.dir/all] Error 2
+[3.122s] gmake: *** [Makefile:146: all] Error 2
+[3.125s] Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8

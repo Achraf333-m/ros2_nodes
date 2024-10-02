@@ -1,0 +1,4 @@
+Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adone/ros2_ws/src/cpp_pubNode -DCMAKE_INSTALL_PREFIX=/home/adone/ros2_ws/src/install/cpp_pubNode
+Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adone/ros2_ws/src/cpp_pubNode -DCMAKE_INSTALL_PREFIX=/home/adone/ros2_ws/src/install/cpp_pubNode
+Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8
+Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8

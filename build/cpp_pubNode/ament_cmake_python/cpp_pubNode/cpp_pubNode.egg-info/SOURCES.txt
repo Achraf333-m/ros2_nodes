@@ -1,0 +1,7 @@
+setup.py
+cpp_pubNode/__init__.py
+cpp_pubNode/module_to_import.py
+cpp_pubNode.egg-info/PKG-INFO
+cpp_pubNode.egg-info/SOURCES.txt
+cpp_pubNode.egg-info/dependency_links.txt
+cpp_pubNode.egg-info/top_level.txt

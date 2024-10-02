@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000112] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000702] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000731] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000748] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000994] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001020] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001037] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001075] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001143] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001159] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001175] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001190] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001205] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001220] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001241] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001259] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001275] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001289] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001304] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001319] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001334] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001348] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001363] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001380] (cpp_pubNode) JobQueued: {'identifier': 'cpp_pubNode', 'dependencies': OrderedDict()}
+[0.001398] (cpp_pubNode) JobStarted: {'identifier': 'cpp_pubNode'}
+[0.007482] (cpp_pubNode) JobProgress: {'identifier': 'cpp_pubNode', 'progress': 'cmake'}
+[0.008417] (cpp_pubNode) JobProgress: {'identifier': 'cpp_pubNode', 'progress': 'build'}
+[0.008453] (cpp_pubNode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adone/ros2_ws/src/build/cpp_pubNode', '--', '-j8', '-l8'], 'cwd': '/home/adone/ros2_ws/src/build/cpp_pubNode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'adone'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adone'), ('OLDPWD', '/home/adone/ros2_ws/src/cpp_pubNode/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Reaper-Lat:@/tmp/.ICE-unix/1769,unix/Reaper-Lat:/tmp/.ICE-unix/1769'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ee4520a5_80fa_4037_bbb1_c0e33421ca98'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ST5JU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adone/ros2_ws/src/build/cpp_pubNode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051596] (cpp_pubNode) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_exe\x1b[0m\n'}
+[0.069834] (cpp_pubNode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.070083] (cpp_pubNode) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_cpp_pubNode\n'}
+[0.099926] (-) TimerEvent: {}
+[0.200198] (-) TimerEvent: {}
+[0.300447] (-) TimerEvent: {}
+[0.314769] (cpp_pubNode) StdoutLine: {'line': b'running egg_info\n'}
+[0.315466] (cpp_pubNode) StdoutLine: {'line': b'writing cpp_pubNode.egg-info/PKG-INFO\n'}
+[0.315681] (cpp_pubNode) StdoutLine: {'line': b'writing dependency_links to cpp_pubNode.egg-info/dependency_links.txt\n'}
+[0.315856] (cpp_pubNode) StdoutLine: {'line': b'writing top-level names to cpp_pubNode.egg-info/top_level.txt\n'}
+[0.317858] (cpp_pubNode) StdoutLine: {'line': b"reading manifest file 'cpp_pubNode.egg-info/SOURCES.txt'\n"}
+[0.318611] (cpp_pubNode) StdoutLine: {'line': b"writing manifest file 'cpp_pubNode.egg-info/SOURCES.txt'\n"}
+[0.349874] (cpp_pubNode) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_cpp_pubNode_egg\n'}
+[0.400605] (-) TimerEvent: {}
+[0.500874] (-) TimerEvent: {}
+[0.601153] (-) TimerEvent: {}
+[0.701441] (-) TimerEvent: {}
+[0.801744] (-) TimerEvent: {}
+[0.902031] (-) TimerEvent: {}
+[1.002326] (-) TimerEvent: {}
+[1.102623] (-) TimerEvent: {}
+[1.202943] (-) TimerEvent: {}
+[1.303268] (-) TimerEvent: {}
+[1.403555] (-) TimerEvent: {}
+[1.503854] (-) TimerEvent: {}
+[1.604172] (-) TimerEvent: {}
+[1.704445] (-) TimerEvent: {}
+[1.804796] (-) TimerEvent: {}
+[1.905124] (-) TimerEvent: {}
+[2.005472] (-) TimerEvent: {}
+[2.105809] (-) TimerEvent: {}
+[2.206206] (-) TimerEvent: {}
+[2.306570] (-) TimerEvent: {}
+[2.406917] (-) TimerEvent: {}
+[2.507315] (-) TimerEvent: {}
+[2.607667] (-) TimerEvent: {}
+[2.621505] (cpp_pubNode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.621722] (cpp_pubNode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyCustomNode::MyCustomNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.621803] (cpp_pubNode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:8:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.621876] (cpp_pubNode) StderrLine: {'line': b'    8 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.621942] (cpp_pubNode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.707779] (-) TimerEvent: {}
+[2.808129] (-) TimerEvent: {}
+[2.908548] (-) TimerEvent: {}
+[3.008943] (-) TimerEvent: {}
+[3.109279] (-) TimerEvent: {}
+[3.122816] (cpp_pubNode) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o] Error 1\n'}
+[3.123113] (cpp_pubNode) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/cpp_exe.dir/all] Error 2\n'}
+[3.123302] (cpp_pubNode) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.125905] (cpp_pubNode) CommandEnded: {'returncode': 2}
+[3.165601] (cpp_pubNode) JobEnded: {'identifier': 'cpp_pubNode', 'rc': 2}
+[3.176259] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+WARNING: Package name "cpp_pubNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "cpp_pubNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:2[m[K:
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   10 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:[m[K In constructor ‘[01m[KMyCustomNode::MyCustomNode()[m[K’:
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/include/cpp_pubNode/cpp_header.hpp:8:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    8 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+    7 |     [01;31m[Krclpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+    9 |     [01;31m[Krclpp[m[K::spin(node);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/adone/ros2_ws/src/cpp_pubNode/src/cpp_node.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+   10 |     [01;31m[Krclpp[m[K::shutdown();
+      |     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/cpp_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

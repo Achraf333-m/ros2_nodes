@@ -1,0 +1,2 @@
+Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8
+Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8

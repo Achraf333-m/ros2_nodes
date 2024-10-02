@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_exe[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o[0m
+[  0%] Built target ament_cmake_python_copy_cpp_pubNode
+running egg_info
+writing cpp_pubNode.egg-info/PKG-INFO
+writing dependency_links to cpp_pubNode.egg-info/dependency_links.txt
+writing top-level names to cpp_pubNode.egg-info/top_level.txt
+reading manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+writing manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_cpp_pubNode_egg

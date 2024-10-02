@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target cpp_exe[0m
+[0.072s] [  0%] Built target ament_cmake_python_copy_cpp_pubNode
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o[0m
+[0.323s] running egg_info
+[0.324s] writing cpp_pubNode.egg-info/PKG-INFO
+[0.325s] writing dependency_links to cpp_pubNode.egg-info/dependency_links.txt
+[0.325s] writing top-level names to cpp_pubNode.egg-info/top_level.txt
+[0.328s] reading manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+[0.329s] writing manifest file 'cpp_pubNode.egg-info/SOURCES.txt'
+[0.360s] [ 50%] Built target ament_cmake_python_build_cpp_pubNode_egg
+[3.224s] [100%] [32m[1mLinking CXX executable cpp_exe[0m
+[3.423s] [100%] Built target cpp_exe
+[3.437s] Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adone/ros2_ws/src/build/cpp_pubNode -- -j8 -l8
+[3.480s] Invoking command in '/home/adone/ros2_ws/src/build/cpp_pubNode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adone/ros2_ws/src/build/cpp_pubNode
+[3.490s] -- Install configuration: ""
+[3.490s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/lib/cpp_pubNode/cpp_exe
+[3.491s] -- Set runtime path of "/home/adone/ros2_ws/src/install/cpp_pubNode/lib/cpp_pubNode/cpp_exe" to ""
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/pythonpath.sh
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/pythonpath.dsv
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode-0.0.0-py3.10.egg-info
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.491s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode-0.0.0-py3.10.egg-info/PKG-INFO
+[3.492s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode-0.0.0-py3.10.egg-info/top_level.txt
+[3.492s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode
+[3.492s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode/module_to_import.py
+[3.492s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode/__init__.py
+[3.529s] Listing '/home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode'...
+[3.529s] Compiling '/home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode/__init__.py'...
+[3.529s] Compiling '/home/adone/ros2_ws/src/install/cpp_pubNode/local/lib/python3.10/dist-packages/cpp_pubNode/module_to_import.py'...
+[3.533s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/lib/cpp_pubNode/py_node.py
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/ament_index/resource_index/package_run_dependencies/cpp_pubNode
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/ament_index/resource_index/parent_prefix_path/cpp_pubNode
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/ament_prefix_path.sh
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/ament_prefix_path.dsv
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/path.sh
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/environment/path.dsv
+[3.534s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/local_setup.bash
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/local_setup.sh
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/local_setup.zsh
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/local_setup.dsv
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/package.dsv
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/ament_index/resource_index/packages/cpp_pubNode
+[3.535s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/cmake/cpp_pubNodeConfig.cmake
+[3.536s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/cmake/cpp_pubNodeConfig-version.cmake
+[3.536s] -- Installing: /home/adone/ros2_ws/src/install/cpp_pubNode/share/cpp_pubNode/package.xml
+[3.540s] Invoked command in '/home/adone/ros2_ws/src/build/cpp_pubNode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adone/ros2_ws/src/build/cpp_pubNode
