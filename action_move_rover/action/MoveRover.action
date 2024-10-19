@@ -1,0 +1,5 @@
+int32 distance_to_move
+---
+int32[] distance_result
+---
+int32[] distance_moved
